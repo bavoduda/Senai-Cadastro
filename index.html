@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    
+  </head>
+  <body style="background-color:rgb(176, 202, 216)"; >
+    
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <h1 align="center" style="color:rgb(31, 172, 243)">  Colégio Caminhar </h1>
+    <hr size="10" style=" background-color:rgb(31, 172, 243)" />
+  <table> 
+    <div class="container">
+      <h1 align="center" style="color:darkblue";> Cadastro </h1>
+      <form action="#">
+        <div class="form-group">
+          <label for="nome" style="color: blue;">Nome:</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome Completo" name="nome">
+        </div> 
+        <div class="form-group">
+          <label for="cpf" style="color: blue;">CPF:</label>
+          <input type="cpf" class="form-control" id="cpf" placeholder="Digite seu Cpf" name="cpf">
+        </div>
+        <div class="form-group">
+          <label for="email" style="color: blue;">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="endereco" style="color: blue;">Endereço:</label>
+          <input type="text" class="form-control" id="endereco" placeholder="Digite seu Endereço completo" name="endereco">
+        </div>
+        <div class="form-group">
+          <label for="pwd" style="color: blue;">Crie uma senha:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Digite uma senha" name="pwd">
+        </div>
+        <div class="form-group">
+          <label for="conf_senha" style="color: blue;">Confirme a senha:</label>
+          <input type="password" class="form-control" id="conf_senha" placeholder="Digite a senha novamente" name="conf_senha">
+        </div>
+        <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="background-color: blue;">Enviar </button>
+        <button type="reset" class="btn btn-info btn-lg" style="background-color: blue";>Limpar </button>
+      </form>
+      
+    </div> 
+
+    <div class="container">
+      
+    
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              
+            </div>
+            <div class="modal-body">
+              <p align="center"> Cadastro realizado com sucesso!!!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    <hr size="10" style=" background-color:rgb(31, 172, 243)" />
+    <div class="container">
+      <h2 align="center" style="color:darkblue">Matérias Disponíveis:</h2>
+      <ul class="list-group" align="center" >
+        <li class="list-group-item" style="background-color: rgb(182, 224, 241);">Matemática</li>
+        <li class="list-group-item" style="background-color: rgb(182, 224, 241);">Português</li>
+        <li class="list-group-item" style="background-color: rgb(182, 224, 241);">História</li>
+        <li class="list-group-item" style="background-color: rgb(182, 224, 241);">Geografia</li>
+        <li class="list-group-item" style="background-color: rgb(182, 224, 241);"> Ciências</li>
+        <li class="list-group-item" style="background-color: rgb(182, 224, 241);">Educação Física</li>
+        <li class="list-group-item" style="background-color: rgb(182, 224, 241);">Inglês</li>
+        <li class="list-group-item" style="background-color: rgb(182, 224, 241);">Ensino Religioso</li>
+
+      </ul>
+    </div>
+    <hr size="10" style=" background-color:rgb(31, 172, 243)" />
+    <h1 align="center" style="color:darkblue"> Monitorias da Semana </h1>
+    <div class="row">
+     
+      <div class="col-sm-4" style="background-color: rgb(182, 224, 241);">Matemática</div>
+      <div class="col-sm-4" style="background-color: rgb(182, 224, 241)">Português</div>
+      <div class="col-sm-4" style="background-color:rgb(182, 224, 241)">História</div>
+      <div class="col-sm-4" style="background-color:rgb(182, 224, 241);">Horário: terça e quinta de 8h ás 9h.</div>
+      <div class="col-sm-4" style="background-color:rgb(182, 224, 241)">Horário: Segunda e Sexta ás 13h ás 14h. </div>
+      <div class="col-sm-4" style="background-color:rgb(182, 224, 241);">Horário: Quarta e Quinta ás 10h ás 11h. </div>
+    
+  </div> 
+  <hr size="10" style=" background-color:rgb(31, 172, 243)" />
+<h1 align="center" style="color:darkblue"> Sobre Nós </h1>
+    <div class="container" style="background-color: rgb(182, 224, 241);">
+<p> Nossa história começa em 1934 com apenas 75 alunos e uma única missão: oferecer uma educação baseada nos valores cristãos, na fraternidade, no conhecimento e no amor.
+
+  Hoje, oito décadas depois, são mais de 3.500 alunos da EducaçãoNossa história começa em 1934 com apenas 75 alunos e uma única missão: oferecer uma educação baseada nos valores cristãos, na fraternidade, no conhecimento e no amor.
+  
+  Hoje, oito décadas depois, são mais de 3.500 alunos da Educação Infantil ao Ensino Médio em uma constante busca por conhecimento, cidadania e dignidade. Infantil ao Ensino Médio em uma constante busca por conhecimento, cidadania e dignidade.
+  
+  </p>
+    </div>
+    <hr size="10" style=" background-color:rgb(31, 172, 243)" />
+    <div class="container">
+      <h2 align="center" style="color:darkblue;" >Entre em contato conosco </h2>            
+      <table class="table table-striped">
+        <thead style="background-color: rgb(101, 182, 197);">
+          <tr align="center">
+            <th> Nome </th>
+            <th>Email</th>
+            <th> Telefone </th>
+            <th>Endereço </th>
+          </tr>
+        </thead> 
+        <tbody align="center" style="background-color: rgb(182, 224, 241);">
+          <tr>
+            <td>Maria Eduarda Dias Lopes</td>
+            <td>Maria@gmail.com</td>
+            <td>(31)99967-0855</td>
+            <td> Rua Saturno, 1124, Parque Elizabeth, Contagem </td>
+          </tr>
+          <tr>
+            <td>Thais Vitoria Souza Lima</td>
+            <td>Thais@gmail.com</td>
+            <td>(31)98765-7654</td>
+            <td> Rua Curitiba, 125,Serra Dourada, Contagem </td>
+          </tr>
+          <tr>
+            <td>Matheus da Silva Cardoso</td>
+            <td>Matehus@gmail.com</td>
+            <td>(31)93567-1234</td>
+            <td> Rua Batista, 1500, Concórdia, Contagem </td>
+          </tr>
+          <tr>
+            <td>Carlos Eduardo Duart</td>
+            <td>Carlos@gmail.com</td>
+            <td>(31)98765-7897</td>
+            <td> Rua Paraná, 24, Parque Elizabeth, Contagem </td>
+          </tr>
+          <tr>
+            <td>Júlia Martis de Castro</td>
+            <td>júlia@gmail.com</td>
+            <td>(31)94563-0987</td>
+            <td> Rua Jaqueline, 100,Angatuba, Contagem </td>
+          </tr>
+          <tr>
+            <td>Alice Constantino</td>
+            <td>Alice@gmail.com</td>
+            <td>(31)97645-1234</td>
+            <td> Rua Palmares,40,Jaquez, Contagem </td>
+          </tr>
+          <tr>
+            <td>Bento Batista Brito</td>
+            <td>BentO@gmail.com</td>
+            <td>(31)97654-9876</td>
+            <td> Rua Catrana,56,Rio Grande, Contagem </td>
+          </tr>
+          <tr>
+            <td>Bernado Soarez Barbosa</td>
+            <td>Bernado@gmail.com</td>
+            <td>(31)96548-7586</td>
+            <td> Rua Silvera,90,Palacio,Contagem </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</html>
+
